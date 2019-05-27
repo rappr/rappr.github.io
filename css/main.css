@@ -265,6 +265,10 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 50px;
   font-size: 14px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
   background-color: {{ site.footer-col }};
   {% if site.footer-img %}
   background-image: url({{ site.footer-img }});
@@ -779,4 +783,8 @@ td.gutter {
   color: #808080;
   font-style: italic;
   font-size: 16px;
+}
+
+.container{
+
 }
